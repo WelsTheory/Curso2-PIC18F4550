@@ -1,0 +1,107 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4550 ]
+[d frameptr 4065 ]
+"4 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"6 D:\Electronica\Curso\Curso 2\Clase 3\LCD_4bits.X\LCD_4bits.c
+[v _LCD_Init LCD_Init `(v  1 e 1 0 ]
+"20
+[v _LCD_Comando LCD_Comando `(v  1 e 1 0 ]
+"67
+[v _LCD_Caracter LCD_Caracter `(v  1 e 1 0 ]
+"92
+[v _LCD_XY LCD_XY `(v  1 e 1 0 ]
+"101
+[v _LCD_Cadena LCD_Cadena `(v  1 e 1 0 ]
+"13 D:\Electronica\Curso\Curso 2\Clase 3\LCD_4bits.X\Programa_principal.c
+[v _main main `(v  1 e 1 0 ]
+"3263 C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+[s S28 . 1 `uc 1 LATD0 1 0 :1:0 
+`uc 1 LATD1 1 0 :1:1 
+`uc 1 LATD2 1 0 :1:2 
+`uc 1 LATD3 1 0 :1:3 
+`uc 1 LATD4 1 0 :1:4 
+`uc 1 LATD5 1 0 :1:5 
+`uc 1 LATD6 1 0 :1:6 
+`uc 1 LATD7 1 0 :1:7 
+]
+"3290
+[s S37 . 1 `uc 1 LD0 1 0 :1:0 
+`uc 1 LD1 1 0 :1:1 
+`uc 1 LD2 1 0 :1:2 
+`uc 1 LD3 1 0 :1:3 
+`uc 1 LD4 1 0 :1:4 
+`uc 1 LD5 1 0 :1:5 
+`uc 1 LD6 1 0 :1:6 
+`uc 1 LD7 1 0 :1:7 
+]
+[u S46 . 1 `S28 1 . 1 0 `S37 1 . 1 0 ]
+[v _LATDbits LATDbits `VES46  1 e 1 @3980 ]
+"4001
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"13 D:\Electronica\Curso\Curso 2\Clase 3\LCD_4bits.X\Programa_principal.c
+[v _main main `(v  1 e 1 0 ]
+{
+"24
+} 0
+"92 D:\Electronica\Curso\Curso 2\Clase 3\LCD_4bits.X\LCD_4bits.c
+[v _LCD_XY LCD_XY `(v  1 e 1 0 ]
+{
+[v LCD_XY@x x `i  1 p 2 2 ]
+[v LCD_XY@y y `i  1 p 2 4 ]
+"99
+} 0
+"6
+[v _LCD_Init LCD_Init `(v  1 e 1 0 ]
+{
+"18
+} 0
+"20
+[v _LCD_Comando LCD_Comando `(v  1 e 1 0 ]
+{
+[v LCD_Comando@cmd cmd `uc  1 a 1 wreg ]
+[v LCD_Comando@cmd cmd `uc  1 a 1 wreg ]
+"22
+[v LCD_Comando@cmd cmd `uc  1 a 1 1 ]
+"65
+} 0
+"101
+[v _LCD_Cadena LCD_Cadena `(v  1 e 1 0 ]
+{
+[v LCD_Cadena@dat dat `*.32uc  1 p 2 2 ]
+"107
+} 0
+"67
+[v _LCD_Caracter LCD_Caracter `(v  1 e 1 0 ]
+{
+[v LCD_Caracter@data data `uc  1 a 1 wreg ]
+[v LCD_Caracter@data data `uc  1 a 1 wreg ]
+"69
+[v LCD_Caracter@data data `uc  1 a 1 1 ]
+"90
+} 0
